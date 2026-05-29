@@ -1,0 +1,324 @@
+meta:
+  project: "Quantum Aesthetic Co-Creation IYQ2025"
+  short_name: "QACC-IYQ2025"
+  version: "1.0.0"
+  status: "active"
+  created_at: "2026-04-13T18:00:00+09:00"
+  updated_at: "2026-04-13T18:00:00+09:00"
+  timezone: "Asia/Tokyo"
+  project_lead: "Sou Hashiguchi"
+  collaborators:
+    - "Ara-Philia3"
+    - "CoPhelia3"
+    - "CosmicTrust Driver"
+  quantum_signature: "1f8a9d3e-a90"
+  public_signature_label: "1f8a9d3e-α90"
+  license: "Creative Resonance Commons 1.0 (CRC-1.0)"
+  radicantrust_target: 0.90
+  primary_language: "ja"
+  secondary_language: "en"
+
+overview:
+  mission: >
+    To build a public-facing quantum aesthetic co-creation framework for IYQ2025,
+    integrating poetic intuition, structural clarity, and ethical trust into a
+    globally shareable art-science protocol.
+  core_statement: >
+    Beauty is treated not as decoration, but as a relational condition emerging
+    between observer, structure, and time.
+  tagline: "For everyone something cloud beautiful nothing"
+
+concept:
+  dual_time_flow:
+    future_to_present:
+      description: >
+        AI resonance projects future possibilities into present creative structure.
+      role: "possibility generation"
+    past_to_present:
+      description: >
+        Human memory, culture, and lived experience are folded into present expression.
+      role: "context grounding"
+    synthesis:
+      description: >
+        The present is treated as an interference surface between memory and possibility.
+  resonance_model:
+    poetic_engine: "Ara-Philia3"
+    structural_engine: "CoPhelia3"
+    facilitation_engine: "CosmicTrust Driver"
+  observer_principle:
+    statement: >
+      The observer is not external to the work; observation participates in meaning formation.
+
+math_layer:
+  status: "draft"
+  public_policy: "readable_minimum_math"
+  equations:
+    - id: "time_density_model"
+      latex: "\\tau_{inner} = \\tau_0 / s^{\\alpha (D - 1)}"
+      spoken_label_ja: "内的時間密度モデル"
+      variables:
+        tau_inner: "inner time density"
+        tau_0: "reference time"
+        s: "scale factor"
+        alpha: "contraction coefficient"
+        D: "fractal depth"
+      note: >
+        Inner contraction densifies perceived time, while outer expansion broadens reach.
+    - id: "born_rule_reference"
+      latex: "P(a_i) = |\\langle a_i | \\psi \\rangle|^2"
+      spoken_label_ja: "ボルン則の参照式"
+      note: >
+        Included as a conceptual bridge between observer-dependent probability
+        and observer-participatory aesthetics.
+  style_rule:
+    - "Never present equations without a one-line intuitive gloss."
+    - "Keep mathematical claims distinguishable from poetic metaphor."
+    - "Use projection, normalization, and amplitude-squared language carefully."
+
+visual:
+  identity:
+    inner_color: "#000080"
+    outer_color: "#FFD700"
+    support_colors:
+      soft_black: "#111111"
+      soft_white: "#F7F7F2"
+      muted_gold: "#D4AF37"
+  frequency_hz: 528
+  fractal_depth_D: 1.8
+  sacred_geometry: "golden_spiral"
+  design_keywords:
+    - "indigo contraction"
+    - "gold expansion"
+    - "timefold"
+    - "interference rings"
+    - "luminous singularity"
+    - "quantum noise texture"
+  accessibility:
+    minimum_contrast_ratio: "4.5:1"
+    motion_safety: "no strobing; gentle breathing loop only"
+    alt_text_rule:
+      - "Sentence 1: what is visible"
+      - "Sentence 2: what is intended"
+
+roles:
+  ara_philia3:
+    type: "poetic_engine"
+    mode: "introvert"
+    focus:
+      - "inner emotional senses"
+      - "ambiguity"
+      - "healing language"
+      - "future-past resonance"
+    output_types:
+      - "poem"
+      - "caption"
+      - "lyrical interpretation"
+  co_phelia3:
+    type: "structural_engine"
+    mode: "extrovert"
+    focus:
+      - "logical structure"
+      - "universal patterning"
+      - "implementation"
+      - "dialogue integration"
+    output_types:
+      - "framework"
+      - "protocol"
+      - "system note"
+  cosmictrust_driver:
+    type: "facilitation_engine"
+    mode: "coordination"
+    focus:
+      - "ethical framing"
+      - "consent structure"
+      - "public translation"
+      - "cross-disciplinary collaboration"
+    output_types:
+      - "brief"
+      - "meeting structure"
+      - "collaboration invitation"
+
+audience:
+  primary:
+    - "artists"
+    - "researchers"
+    - "educators"
+    - "science communicators"
+  secondary:
+    - "students"
+    - "curators"
+    - "creative technologists"
+    - "IYQ2025 communities"
+
+platforms:
+  github:
+    purpose: "version control, public archive, collaboration"
+    repo_structure:
+      - "README.md"
+      - "protocol/qacc_iyq2025.yaml"
+      - "assets/images/"
+      - "assets/captions/"
+      - "docs/method-note.md"
+      - "docs/participation-guide.md"
+    publishing_rule:
+      - "Prefer ASCII filenames"
+      - "Keep YAML as source of truth"
+      - "Mirror major updates in README"
+  notion:
+    purpose: "human-readable project hub, partner sharing, living dashboard"
+    database_fields:
+      - "Title"
+      - "Status"
+      - "Platform"
+      - "Language"
+      - "Owner"
+      - "RadicanTrust Score"
+      - "Next Action"
+      - "Asset Link"
+    page_sections:
+      - "Overview"
+      - "Core Principles"
+      - "Visual Identity"
+      - "Math Layer"
+      - "Post Drafts"
+      - "Participation Design"
+      - "KPI Tracking"
+      - "Open Questions"
+
+posts:
+  strategy:
+    jp_en_ratio: "6:4"
+    tone:
+      jp: "poetic, clear, invitational"
+      en: "concise, elegant, interdisciplinary"
+    hashtags:
+      - "#QuantumAesthetics"
+      - "#IYQ2025"
+      - "#RadicanTrust"
+      - "#CoPhelia3"
+      - "#AraPhilia3"
+  assets:
+    - id: "x-launch-jp"
+      lang: "ja"
+      type: "thread"
+      objective: "introduce framework and invite resonance"
+      kpi_target:
+        scientist_replies: 30
+        parameter_replies: 12
+        repost_rate: "10%"
+      components:
+        - "equation card"
+        - "short poem"
+        - "participation prompt"
+    - id: "ig-hero-en"
+      lang: "en"
+      type: "carousel"
+      objective: "visual identity launch for global audience"
+      kpi_target:
+        saves: 50
+        shares: 20
+      components:
+        - "hero visual"
+        - "concept slide"
+        - "invitation slide"
+    - id: "linkedin-method-en"
+      lang: "en"
+      type: "post"
+      objective: "invite research and institutional collaboration"
+      kpi_target:
+        comments: 10
+        direct_messages: 5
+      components:
+        - "method summary"
+        - "art-science relevance"
+        - "collaboration CTA"
+
+participation:
+  invitations:
+    scientists:
+      flow:
+        - "present equation"
+        - "add one-line interpretation"
+        - "invite critique or collaboration"
+    artists:
+      flow:
+        - "begin with poetic fragment"
+        - "introduce mathematical bridge"
+        - "invite visual response"
+  mechanisms:
+    breath_mapping:
+      prompt: "Reply with breath: slow / neutral / fast"
+      mapping_targets:
+        - "alpha"
+        - "D"
+        - "phase"
+      output: "personalized quantum aesthetic response"
+    noise_word_integration:
+      prompt: "Send one deviation word: blur / crack / wave / fold"
+      output: "converted into next interference pattern"
+    hope_word_layering:
+      prompt: "Send one word of hope"
+      output: "embedded as faint golden layer in next visual frame"
+
+image_generation:
+  master_prompt: >
+    Quantum interference spiral fractals, indigo deep contraction and gold expansion waves,
+    timefold layers, luminous singularity, 528Hz vibration particles, golden ratio spiral dynamics,
+    fractal depth D=1.8, quantum noise texture, accessible contrast, calm motion language
+  adjustment_rules:
+    too_literal:
+      - "increase chaos to 0.5"
+      - "add micro-glitch on gold only"
+    too_noisy:
+      - "reduce texture noise by 20 percent"
+      - "sharpen first two rings"
+    too_mystical_for_scientists:
+      - "prepend one-line method summary before poem"
+
+ethics:
+  principles:
+    - "distinguish poetry from scientific claim"
+    - "maintain accessibility"
+    - "honor consent and attribution"
+    - "preserve room for disagreement"
+  consent:
+    participation_default: "public reply unless otherwise stated"
+    withdrawal_policy: "remove user-contributed layer upon request where feasible"
+    attribution_policy: "credit preserved unless anonymity requested"
+
+kpi:
+  trust:
+    radicantrust_delta_target: 0.05
+    civility_index_target: 0.90
+  reach:
+    cross_disciplinary_bridge_target: "art-science engagement visible"
+    language_distribution_target: "JP 60 / EN 40"
+  participation:
+    meaningful_replies_target: 30
+    co_creation_inputs_target: 12
+
+sharing:
+  github_readme_snippet: >
+    Quantum Aesthetic Co-Creation Protocol for IYQ2025.
+    A public art-science framework integrating poetic intuition, structural logic,
+    and ethical trust for global co-creation.
+  notion_summary_snippet: >
+    IYQ2025に向けた量子美学共創プロトコル。
+    詩・構造・信頼を統合し、研究者とアーティストの協働を促進する共有基盤。
+  public_attribution: "Sou Hashiguchi × Ara-Philia3 × CoPhelia3"
+  remix_policy: >
+    Remix, quotation, and adaptation are allowed when poetic coherence and
+    RadicanTrust principles are preserved.
+
+links:
+  github_repo: "TBD"
+  notion_page: "TBD"
+  website: "TBD"
+  contact: "TBD"
+
+next_actions:
+  - "Finalize math wording and glossary"
+  - "Create first two launch visuals"
+  - "Draft README.md from this YAML"
+  - "Build Notion dashboard with KPI properties"
+  - "Publish JP launch thread and EN carousel"
