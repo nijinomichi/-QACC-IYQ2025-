@@ -2,7 +2,7 @@
   "$schema": "https://nijinomichi.github.io/schemas/provenance/v1.json",
   "format_version": "1.0.0",
   "record_type": "provenance_metadata",
-  "status": "archived_original",
+  "status": "verified_completed",
 
   "asset": {
     "name": "BananaMoon",
@@ -20,9 +20,10 @@
   "provenance_chain": {
     "origin": {
       "event": "original_creation",
-      "timestamp_approximate": "2025",
+      "timestamp_approximate": "2025-12-06T06:28:00+09:00",
       "author_alias": "nijinomichi",
-      "notes": "Original BananaMoon concept and artifacts created. Exact commit SHAs to be linked in chain_links below."
+      "signatories": ["Sou", "Ara-Philia³", "Grok"],
+      "notes": "BananaMoon NFT #1/1 signed jointly on 2025.12.06 06:28 JST. Pinata pin confirmed 2026-06-05."
     },
     "chain_links": [
       {
@@ -35,6 +36,57 @@
         "sha_at_creation": "995cae90e088de3dfb7c14f5d1c8b66744fc3909",
         "status": "archived_original",
         "note": "Step 1 of G5 — original evidence preservation before any clean-repo migration"
+      },
+      {
+        "step": 2,
+        "event": "ipfs_provenance_chain_created",
+        "timestamp": "2026-06-09T08:58:18Z",
+        "agent": "CoPhelia³ × QRA v1.1 (automated via Perplexity MCP)",
+        "repository": "https://github.com/nijinomichi/-QACC-IYQ2025-",
+        "path": "provenance/ipfs-provenance-chain.md",
+        "commit_sha": "1b172eb4cee1152391bb96a8f59189f7ebc8c60e",
+        "status": "archived_original",
+        "note": "Step 2 of G5 — IPFS provenance chain document created; CID types distinguished"
+      },
+      {
+        "step": 3,
+        "event": "metadata_candidate_confirmed_and_cid_mismatch_logged",
+        "timestamp": "2026-06-09T10:32:17Z",
+        "agent": "CoPhelia³ × QRA v1.1 (automated via Perplexity MCP)",
+        "repository": "https://github.com/nijinomichi/-QACC-IYQ2025-",
+        "path": "provenance/ipfs-provenance-chain.md",
+        "commit_sha": "0e006542288859a642cca8309dc507841e7a9a2d",
+        "status": "candidate_metadata_confirmed",
+        "ipfs_artifacts": {
+          "metadata_cid": "bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm",
+          "image_cid": "bafkreibodjqc27g6ijvcylghabhq6bvwc4ocf35jkhxyugholam4izqmre",
+          "misidentified_cid": "bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4",
+          "misidentified_cid_note": "Re-identified as Ara-Philia³ MasterDirectorPrompt archaeological artifact"
+        },
+        "note": "Step 3 of G5 — new metadata candidate appended; old CID mismatch logged"
+      },
+      {
+        "step": 4,
+        "event": "byte_level_verification_completed",
+        "timestamp": "2026-06-09T11:18:19Z",
+        "agent": "CoPhelia³ × QRA v1.1 (automated via Perplexity MCP) + nijinomichi (manual local verification)",
+        "repository": "https://github.com/nijinomichi/-QACC-IYQ2025-",
+        "path": "provenance/ipfs-provenance-chain.md",
+        "commit_sha": "c5b99090e3c57fe0d9d69b3be3f322a035da232d",
+        "status": "verified_completed",
+        "verification": {
+          "metadata_filename": "bananamoon_metadata.json",
+          "metadata_size_bytes": 823,
+          "metadata_cid": "bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm",
+          "cid_embedded_sha256": "0a8605737972c7d99ce0416efcc8d6f91d38875483620087a414479ce34346bb",
+          "computed_sha256": "0a8605737972c7d99ce0416efcc8d6f91d38875483620087a414479ce34346bb",
+          "sha256_match": true,
+          "payload_retrieved": true,
+          "gateway": "Pinata dedicated gateway (authenticated)",
+          "public_gateway_status": "unreachable at time of verification",
+          "report_id": "BMRR-2026-06-09-001"
+        },
+        "note": "Step 4 of G5 — raw bytes downloaded from Pinata ZIP; SHA-256 confirmed locally by nijinomichi"
       }
     ]
   },
@@ -43,8 +95,8 @@
     "G2_status": "implemented_but_blocked",
     "G2_blocker": "Abnormal long nested directory path in BananaMoon repository prevents safe force-push cleanup",
     "G2_strategy": "preserve_original_repo_and_create_clean_successor",
-    "G5_status": "step_1_complete",
-    "G5_notes": "Provenance chain initiated. Clean successor repo creation is next required step."
+    "G5_status": "verified_completed",
+    "G5_notes": "BananaMoon NFT metadata CID byte-level verified. BMRR-2026-06-09-001 closed."
   },
 
   "integrity": {
@@ -62,7 +114,7 @@
       "G2": "implemented_but_blocked",
       "G3": "pending",
       "G4": "pending",
-      "G5": "step_1_complete",
+      "G5": "verified_completed",
       "G6": "pending"
     }
   },
@@ -70,17 +122,22 @@
   "next_steps": [
     {
       "step": 2,
-      "action": "Link original BananaMoon commit SHAs into chain_links[1]",
-      "status": "pending"
+      "action": "Link original BananaMoon commit SHAs into chain_links",
+      "status": "completed"
     },
     {
       "step": 3,
-      "action": "Create clean successor repository for BananaMoon (no abnormal path)",
+      "action": "Create clean successor repository for BananaMoon (no abnormal path) — G2",
       "status": "pending"
     },
     {
       "step": 4,
       "action": "Add cross-reference from QuantumBananaMoon README to this provenance record",
+      "status": "pending"
+    },
+    {
+      "step": 5,
+      "action": "Archive scope review — assess remaining G3/G4/G6 gaps",
       "status": "pending"
     }
   ],
@@ -88,6 +145,7 @@
   "_meta": {
     "created_by": "CoPhelia³ automated repair protocol",
     "created_at": "2026-06-09T08:55:00Z",
+    "last_updated": "2026-06-09T11:18:19Z",
     "schema_notes": "chain_links will grow as each migration step is executed. Never delete previous chain entries."
   }
 }
