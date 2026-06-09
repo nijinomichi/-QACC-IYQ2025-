@@ -23,18 +23,18 @@
 | File path | `provenance/bananaMoon-metadata-johnson.json` | — |
 | Commit SHA | `93254f9ff0d9896e48671dabfa1a1c4d7e6cb0fc` | Git commit SHA-1 |
 | Git blob SHA | `cdc486b36837084a26e9b5fbf491355a70ad596c` | Git blob SHA-1 (≠ SHA-256) |
-| `integrity.sha256` | `PENDING` | Raw-file SHA-256 — not yet computed |
+| `integrity.sha256` | `e576acc98325720a1cd84219906d9a9e28ba80030fec2bd6bfbc5a2d1eca5897` | Raw-file SHA-256 (computed 2026-06-09) |
 | Commit timestamp | 2026-06-09T08:58:18Z | UTC |
 | Commit author | `nijinomichi` | — |
 | Status | `archived_original` | — |
 
 > **Note on SHA types:** `commit.sha` is a Git commit SHA-1. `blob.sha` is a Git blob SHA-1  
 > computed as `SHA1("blob {size}\0{content}")` — it is **not** a SHA-256 digest of raw file bytes.  
-> The `integrity.sha256` field above must be populated via `sha256sum` on the raw file before IPFS/CID cross-verification can proceed.
+> The `integrity.sha256` field above was computed from raw file bytes retrieved via GitHub MCP on 2026-06-09.
 
 ---
 
-## Chain Entry 2 — IPFS / Pinata Record (`QuantumBananaMoon`)
+## Chain Entry 2 — IPFS / Pinata Record (`QuantumBananaMoon`) — Mismatch Logged
 
 | Field | Value | Kind |
 |---|---|---|
@@ -44,47 +44,115 @@
 | Commit timestamp | 2026-06-09T08:56:35Z | UTC |
 | Files changed | `provenance/bananaMoon-metadata-johnson.json` (+99 lines) | — |
 | Commit author | `nijinomichi` | — |
-| Status | `implemented_but_not_verified` | — |
+| Status | `mismatch_logged` | — |
 
-### IPFS / Pinata Reference
+### IPFS / Pinata Reference — CID MISMATCH RECORD
 
 | Field | Value | Verification status |
 |---|---|---|
-| Pinata File ID | `019e97c3-6e28-7fd8-907c-63660840fc25` | 🟡 present, not independently verified |
-| IPFS CID | `bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4` | 🟡 present, not independently verified |
-| CID version | CIDv1 (inferred from `bafkrei` prefix — base32 multibase) | inferred |
-| Multicodec | `raw` (inferred) | inferred |
-| Hash function | SHA2-256 (standard Pinata default) | inferred |
-| Gateway URL | `https://ipfs.io/ipfs/bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4` | 🔲 retrieval not attempted |
+| Pinata File ID | `019e97c3-6e28-7fd8-907c-63660840fc25` | 🔴 CID digest mismatch — not verified |
+| IPFS CID | `bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4` | 🔴 digest mismatch |
+| CID version | CIDv1 (base32 multibase) | confirmed via decode |
+| Multicodec | `raw` (0x55) | confirmed via decode |
+| Hash function | SHA2-256 (0x12) | confirmed via decode |
+| CID embedded digest | `ca833a9831b8005acdfe777f106080b10565aa44238c1610212a4bb56fb70fbf` | decoded |
+| Source file SHA-256 | `e576acc98325720a1cd84219906d9a9e28ba80030fec2bd6bfbc5a2d1eca5897` | computed |
+| Gateway URL | `https://ipfs.io/ipfs/bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4` | 🔴 gateway unreachable |
 
-> ⚠️ The IPFS CID listed above has **not** been independently retrieved or byte-level verified.  
-> Verification requires: `ipfs cat <CID>` or gateway fetch + SHA-256 comparison against source file.
+> ⚠️ **MISMATCH CONFIRMED (2026-06-09 Step 3):**  
+> CID embedded SHA-256 digest ≠ Source file SHA-256.  
+> This CID likely references a **different version** of the file (pre-edit, different encoding, or different content).  
+> Status frozen at `mismatch_logged`. Do NOT upgrade to `verified_completed`.
 
-### Source File Reference
+---
+
+## Chain Entry 3 — New BananaMoon NFT Metadata Candidate (Pinata, 2026-06-05)
+
+> **Append timestamp:** 2026-06-09 (Step 3 continuation)  
+> **Classification:** `bananaMoon_metadata_candidate` · Confidence: **high** · Verification: **partial**
 
 | Field | Value | Kind |
 |---|---|---|
-| Source filename | `bananamoon_nft_metadata_1763131775250.json` | — |
-| Source path | `attached_assets/bananamoon_nft_metadata_1763131775250.json` | — |
-| Source SHA | `283acb9a2d1fc80ebcb19d90226f9a37882c6735` | Git blob SHA-1 (≠ SHA-256) |
-| Source SHA-256 | `PENDING` | Raw-file SHA-256 — not yet computed |
-| Source status | Referenced in commit message; file deleted from repo | — |
+| Filename | `bananamoon_metadata.json` | — |
+| File size | 823 B | — |
+| Creation date | 2026-06-05 | Pinata record date |
+| Content type | NFT Metadata JSON | — |
+| Pinata record | `pinata_record_found: true` | — |
+| Status | `candidate_metadata_confirmed` | — |
+
+### NFT Metadata CID
+
+| Field | Value | Verification status |
+|---|---|---|
+| IPFS CID | `bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm` | 🟡 structure valid, byte-level pending |
+| CID version | CIDv1 (base32 multibase, prefix `bafkrei`) | confirmed via decode |
+| Multicodec | `raw` (0x55) | confirmed via decode |
+| Hash function | SHA2-256 (0x12) | confirmed via decode |
+| CID embedded digest | `0a8605737972c7d99ce0416efcc8d6f91d38875483620087a414479ce34346bb` | decoded |
+| Gateway URL | `https://ipfs.io/ipfs/bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm` | 🔲 retrieval pending |
+| Source SHA-256 | `PENDING` | raw-byte comparison not yet performed |
+| Byte-level match | `PENDING` | gateway unreachable at time of append |
+
+### Image CID (referenced by metadata)
+
+| Field | Value | Verification status |
+|---|---|---|
+| IPFS CID | `bafkreibodjqc27g6ijvcylghabhq6bvwc4ocf35jkhxyugholam4izqmre` | 🟡 structure valid, not retrieved |
+| CID version | CIDv1 (base32 multibase) | confirmed via decode |
+| Multicodec | `raw` (0x55) | confirmed via decode |
+| Hash function | SHA2-256 (0x12) | confirmed via decode |
+| CID embedded digest | `2e1a602d7cde426a2c2cc7004f0f06b6171c22efa951ef8a18ee5819c4660c89` | decoded |
+| Gateway URL | `https://ipfs.io/ipfs/bafkreibodjqc27g6ijvcylghabhq6bvwc4ocf35jkhxyugholam4izqmre` | 🔲 retrieval pending |
+
+### Known Metadata Fields
+
+| Field | Value | Note |
+|---|---|---|
+| `name` | `"BananaMoon Quantum NFT #1/1"` | — |
+| `image` | references Image CID above | IPFS URI |
+| Encoding | mojibake present in several fields | ⚠️ encoding reconstruction required |
+
+> ⚠️ **Encoding Note:** Mojibake (character encoding corruption) has been observed in metadata fields.  
+> Raw byte content must be reviewed for encoding (UTF-8 / UTF-16 / Shift-JIS / BOM) before treating any  
+> text fields as authoritative. Encoding reconstruction is a separate pending task.
+
+### Provenance Relationship (Entry 3)
+
+```
+BananaMoon Artwork
+↓
+Image CID: bafkreibodjqc27g6ijvcylghabhq6bvwc4ocf35jkhxyugholam4izqmre
+↓
+Metadata CID: bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm
+↓
+Pinata Record (2026-06-05, filename: bananamoon_metadata.json, 823 B)
+↓
+GitHub Provenance Documentation (this file)
+↓
+bananaMoon-metadata-johnson.json
+↓
+ipfs-provenance-chain.md
+```
 
 ---
 
 ## Verification Checklist
 
 ```
-[ ] Compute sha256sum of raw bananaMoon-metadata-johnson.json bytes
-    → Populate integrity.sha256 in Chain Entry 1
-[ ] Compute sha256sum of raw bananamoon_nft_metadata_1763131775250.json bytes
-    → Populate source SHA-256 in Chain Entry 2
-[ ] Retrieve IPFS CID via gateway or local node
-    → ipfs cat bafkreigkqm5jqmnyabnm37txp4igbafravs2urbdrqlbaijkjo2w7nypx4
-[ ] Compare retrieved bytes against source SHA-256
-    → Status: implemented_but_not_verified → verified_completed
-[ ] Confirm Pinata File ID 019e97c3-6e28-7fd8-907c-63660840fc25 is still pinned
-[ ] Add verified CID to bananaMoon-metadata-johnson.json chain_links[1]
+[x] Compute sha256sum of raw bananaMoon-metadata-johnson.json bytes
+    → integrity.sha256 = e576acc98325720a1cd84219906d9a9e28ba80030fec2bd6bfbc5a2d1eca5897
+[x] CID decode: old CID (Entry 2) — mismatch confirmed, status frozen
+[x] CID decode: new metadata CID (Entry 3) — structure valid (CIDv1 raw sha2-256)
+[x] CID decode: image CID (Entry 3) — structure valid (CIDv1 raw sha2-256)
+[ ] Retrieve Entry 3 metadata CID via gateway
+    → ipfs cat bafkreiakqycxg6lsy7mzzycbn36mrvxzdu4iovedmiaipjaui6oogq2gxm
+[ ] Compute SHA-256 of retrieved bytes
+[ ] Compare against CID embedded digest: 0a8605737972c7d99ce0416efcc8d6f91d38875483620087a414479ce34346bb
+    → Status: candidate_metadata_confirmed → verified_completed (only if match)
+[ ] Retrieve Entry 3 image CID via gateway
+[ ] Encoding reconstruction — review mojibake fields in bananamoon_metadata.json
+[ ] Confirm Pinata pin status for both CIDs
+[ ] Add verified CIDs to bananaMoon-metadata-johnson.json chain_links
 ```
 
 ---
@@ -92,13 +160,11 @@
 ## Temporal Relationship
 
 ```
-2026-06-09T08:56:35Z  QuantumBananaMoon commit 9910fb7e  (IPFS CID recorded)
-2026-06-09T08:58:18Z  -QACC-IYQ2025- commit 93254f9f   (provenance anchor created)
-                       ↑ 1m 43s gap — parallel execution on same day
+2026-06-05               bananamoon_metadata.json pinned to Pinata (Entry 3 candidate)
+2026-06-09T08:56:35Z     QuantumBananaMoon commit 9910fb7e  (IPFS CID Entry 2 recorded)
+2026-06-09T08:58:18Z     -QACC-IYQ2025- commit 93254f9f   (provenance anchor created)
+2026-06-09 (Step 3)      Entry 2 CID mismatch detected, Entry 3 candidate appended
 ```
-
-Both entries were created within the same automated CoPhelia³ session.  
-Neither has been independently verified post-creation.
 
 ---
 
@@ -110,7 +176,7 @@ Neither has been independently verified post-creation.
 | G2 — CI deps / BananaMoon path blocker | `implemented_but_blocked` |
 | G3 — QuantumChess ↔ QACC connection | `pending` |
 | G4 — Spec / ReleaseStrategy layer | `pending` |
-| G5 — BananaMoon Provenance chain | `step_2_complete` (Step 2 of 4) |
+| G5 — BananaMoon Provenance chain | `step_3_partial` (Entry 3 appended, byte verification pending) |
 | G6 — Supabase / Colab runtime | `pending` |
 
 ---
@@ -121,7 +187,11 @@ Neither has been independently verified post-creation.
 |---|---|---|
 | Step 1 | Create `provenance/bananaMoon-metadata-johnson.json` anchor | ✅ `archived_original` |
 | Step 2 | Create this file (`ipfs-provenance-chain.md`) | ✅ `step_2_complete` |
-| Step 3 | Compute SHA-256 digests + verify IPFS CID retrieval | 🔲 `pending` |
+| Step 3a | Compute SHA-256 of Entry 1 source | ✅ `e576acc9...` |
+| Step 3b | Decode all CIDs, detect Entry 2 mismatch | ✅ `mismatch_logged` |
+| Step 3c | Append Entry 3 (new metadata candidate) | ✅ `candidate_metadata_confirmed` |
+| Step 3d | Byte-level verify Entry 3 CID via gateway | 🔲 `pending` (gateway unreachable) |
+| Step 3e | Encoding reconstruction (mojibake) | 🔲 `pending` |
 | Step 4 | Create clean successor repository (no abnormal path) | 🔲 `pending` |
 
 ---
