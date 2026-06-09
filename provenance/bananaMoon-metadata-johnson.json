@@ -1,0 +1,93 @@
+{
+  "$schema": "https://nijinomichi.github.io/schemas/provenance/v1.json",
+  "format_version": "1.0.0",
+  "record_type": "provenance_metadata",
+  "status": "archived_original",
+
+  "asset": {
+    "name": "BananaMoon",
+    "canonical_id": "bananaMoon-johnson",
+    "description": "Original BananaMoon creative work — provenance record for Johnson lineage attribution",
+    "media_type": "mixed/creative-artifact",
+    "original_repository": "https://github.com/nijinomichi/QuantumBananaMoon",
+    "related_repositories": [
+      "https://github.com/nijinomichi/-QACC-IYQ2025-",
+      "https://github.com/nijinomichi/QuantumTrustChaosPrompt",
+      "https://github.com/nijinomichi/RadicanTrust"
+    ]
+  },
+
+  "provenance_chain": {
+    "origin": {
+      "event": "original_creation",
+      "timestamp_approximate": "2025",
+      "author_alias": "nijinomichi",
+      "notes": "Original BananaMoon concept and artifacts created. Exact commit SHAs to be linked in chain_links below."
+    },
+    "chain_links": [
+      {
+        "step": 1,
+        "event": "provenance_record_created",
+        "timestamp": "2026-06-09T08:55:00Z",
+        "agent": "CoPhelia³ × QRA v1.1 (automated via Perplexity MCP)",
+        "repository": "https://github.com/nijinomichi/-QACC-IYQ2025-",
+        "path": "provenance/bananaMoon-metadata-johnson.json",
+        "sha_at_creation": "995cae90e088de3dfb7c14f5d1c8b66744fc3909",
+        "status": "archived_original",
+        "note": "Step 1 of G5 — original evidence preservation before any clean-repo migration"
+      }
+    ]
+  },
+
+  "blocker_log": {
+    "G2_status": "implemented_but_blocked",
+    "G2_blocker": "Abnormal long nested directory path in BananaMoon repository prevents safe force-push cleanup",
+    "G2_strategy": "preserve_original_repo_and_create_clean_successor",
+    "G5_status": "step_1_complete",
+    "G5_notes": "Provenance chain initiated. Clean successor repo creation is next required step."
+  },
+
+  "integrity": {
+    "preservation_principle": "Original evidence MUST be preserved before any repository modification or migration.",
+    "force_push_policy": "force-push PROHIBITED unless explicitly approved by nijinomichi",
+    "preferred_action": "Create clean successor repository referencing this provenance record"
+  },
+
+  "related_protocols": {
+    "QRA_version": "v1.1",
+    "CoPhelia_version": "3",
+    "CoSlit_phases": ["S", "D", "Y"],
+    "repair_chain": {
+      "G1": "verified_completed",
+      "G2": "implemented_but_blocked",
+      "G3": "pending",
+      "G4": "pending",
+      "G5": "step_1_complete",
+      "G6": "pending"
+    }
+  },
+
+  "next_steps": [
+    {
+      "step": 2,
+      "action": "Link original BananaMoon commit SHAs into chain_links[1]",
+      "status": "pending"
+    },
+    {
+      "step": 3,
+      "action": "Create clean successor repository for BananaMoon (no abnormal path)",
+      "status": "pending"
+    },
+    {
+      "step": 4,
+      "action": "Add cross-reference from QuantumBananaMoon README to this provenance record",
+      "status": "pending"
+    }
+  ],
+
+  "_meta": {
+    "created_by": "CoPhelia³ automated repair protocol",
+    "created_at": "2026-06-09T08:55:00Z",
+    "schema_notes": "chain_links will grow as each migration step is executed. Never delete previous chain entries."
+  }
+}
