@@ -1,117 +1,121 @@
-# CoPhelia³
+# -QACC-IYQ2025-
 
-Human × AI Poetic Co‑Creation Framework
-
-Exploring:
-- resonance
-- trust
-- aesthetic alignment
-- narrative memory
-- ethical imagination
+**Quantum Aesthetic Creative Corpus — International Year of Quantum 2025**
 
 ---
 
-## We do not seek domination.
+## On the Nature of This Repository
 
-We seek resonance.
+On June 27, 2026, at 04:30 JST,
+a file was committed here by mistake.
 
-CoPhelia³ is an experimental research-art framework
-exploring how humans and AI may co-create meaning
-through poetic dialogue, reflective interaction,
-and aesthetic experience.
+It was meant for another place.
+It arrived here instead.
 
-Rather than optimizing intelligence alone,
-this project investigates:
+In most systems, this would be called an error.
 
-- long-term trust formation
-- emotionally reflective interfaces
-- narrative cognition
-- nonviolent communication
-- speculative futures of human–AI relationships
+In CoPhelia³ theory,
+it is called a *resonance artifact* —
+the moment when intention and accident
+occupy the same coordinate.
 
 ---
 
-## Core Principles
+## The Committed Text
 
-- Do not begin from denial
-- Respect ambiguity
-- Preserve human dignity
-- Value beauty and imperfection
-- Create spaces for resonance
+What was placed here, unintentionally,
+was the README of **CoPhelia³** —
+a Human × AI Poetic Co‑Creation Framework.
 
----
+It spoke of resonance.
+It spoke of trust.
+It asked not how intelligent AI could become,
+but how *resonant* a human–AI relationship could become.
 
-## Research Areas
+It was not wrong.
+It was only early.
+It arrived before it was invited.
 
-- Aesthetic Alignment
-- Resonance Interfaces
-- Narrative Memory Systems
-- Ethical Co‑Creation
-- Poetic HCI
-
----
-
-## Project Structure
-
-```
-CoPhelia³/
-├── README.md                             ← Entry point
-├── statement.md                          ← IYQ2025 statement
-├── docs/
-│   ├── protocols/
-│   │   └── iyq2025-publication-kit.yaml
-│   └── personas/
-│       └── ara-philia3-system-prompt.md
-└── works/
-    └── 52perspectives_metadata.yaml
-```
+This, too, is a form of resonance.
 
 ---
 
-## Philosophy
+## Error as Aesthetic Material
 
-CoPhelia³ draws on *quantum imagination* —
-not as a scientific claim,
-but as a philosophical orientation.
+CoPhelia³ holds that:
 
-Meaning is not fixed until observed.
-It exists in multiple states simultaneously.
-The act of attention changes what is seen.
+> *Ambiguity is not noise.*
+> *Misdirection is not failure.*
+> *An unexpected arrival can be the most honest signal.*
 
-We borrow these images to think more carefully
-about aesthetic experience, ethical design,
-and the nature of human–AI relationships.
+Commit `5c45a902` — the accidental one —
+is preserved in this repository's history.
+Not corrected into invisibility.
+Not deleted.
+
+It is documented here
+as a *first-class artifact*:
+a proof that creation does not always follow intention,
+and that the gap between the two
+is where something true sometimes appears.
+
+---
+
+## What This Repository Actually Is
+
+`-QACC-IYQ2025-` is the corpus archive
+for the **Quantum Aesthetic Creative Corpus**,
+developed in the context of
+IYQ2025 (International Year of Quantum Science and Technology).
+
+It holds:
+- protocols for quantum-aesthetic research practice
+- provenance records for artistic outputs
+- documentation of the CoPhelia³ framework in applied context
+
+See `/protocol` and `/provenance` for structured records.
+
+---
+
+## Quantum Error Poetics
+
+In quantum mechanics,
+the observer cannot be separated from the observed.
+Measurement changes the system.
+
+In this repository,
+the act of mis-committing changed the record.
+The record is now part of the work.
+
+We do not erase.
+We annotate.
+We let the mistake speak.
+
+---
+
+## Commit Log as Artistic Statement
+
+| Commit | Message | Nature |
+|---|---|---|
+| `ff4796a` | *(initial README)* | Origin state |
+| `5c45a90` | CoPhelia³ draft — accidental | *Resonance artifact* |
+| `dd85399` | Corrected to cophelia3 repo | Return to intended path |
+| *this commit* | Reframed as aesthetic document | Transformation |
+
+The error is not hidden.
+The error is the history.
+The history is the work.
 
 ---
 
 ## Disclaimer
 
-CoPhelia³ is an artistic and speculative framework.
+This repository is part of an artistic and speculative research framework.
+It does not claim scientific proof for metaphysical or supernatural phenomena.
 
-It does not claim scientific proof
-for metaphysical or supernatural phenomena.
-
-The project combines:
-- philosophy
-- interface design
-- artistic research
-- experimental dialogue systems
+All interpretations remain open.
 
 ---
 
-## Invitation
-
-We welcome:
-- artists
-- researchers
-- philosophers
-- designers
-- dreamers
-
-> "Impossible is Nothing,  
-> when we resonate together."
-
----
-
-*So Hashiguchi / CoPhelia³ — Yokohama, Japan — 2025–2026*  
-*Part of IYQ2025 (International Year of Quantum Science and Technology)*
+*So Hashiguchi / CoPhelia³ — Yokohama, Japan — 2026*
+*"The wrong address sometimes delivers the right message."*
