@@ -25,7 +25,7 @@
 > *ベイビー笑う波*
 
 </div>
-
+![Ara-Philia Resonance Wheel](assets/resonance-wheel.png)
 ---
 
 ## What This Is
