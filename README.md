@@ -95,31 +95,52 @@ epsilon_tolerance: 0.618
 
 ## Repository Structure
 
-```
+````markdown 
+## Repository Structure
+
+```text
 -QACC-IYQ2025-/
 ├── README.md                      ← You are here
-├── src/
-│   └── CoPheliaEngine.py          ← Core failure-resonance engine
-├── notebooks/
-│   └── golden_spiral_demo.ipynb   ← Colab-ready golden spiral demo
-├── protocol/                      ← Research protocols (YAML)
-├── provenance/                    ← Artifact provenance records
-└── docs/                          ← Extended documentation
+├── assets/                        ← Public project visuals
+├── docs/                          ← Method notes, guides, and roadmap
+├── notebooks/                     ← Exploratory notebooks and research materials
+├── protocol/                      ← IYQ2025 protocol and agent-structure drafts
+├── provenance/                    ← Artifact index, provenance records, and metadata
+├── src/                           ← Reproducible source code
+└── tests/                         ← Tests and validation materials
 ```
 
 ---
 
-## Quickstart
+````markdown
+
+## Start Here
+
+1. **Explore** the artifact index under `/provenance/`.  
+
+2. **View** the public visuals under `/assets/`.  
+
+3. **Run** the reproducible source code under `/src/`.  
+
+4. **Read** method notes and participation guidance under `/docs/`.  
+
+5. **Respond** with a poem, critique, issue, or pull request.
 
 ```bash
+
 git clone https://github.com/nijinomichi/-QACC-IYQ2025-.git
+
 cd -QACC-IYQ2025-
+
 python src/CoPheliaEngine.py
+
 ```
 
-Or open the Colab notebook directly:
+Or open the Colab notebook directly:  
+
 [🌀 Golden Spiral Demo](./notebooks/golden_spiral_demo.ipynb)
 
+> *The archive is alive; your observation changes its state.*
 ---
 
 ## Research Context
