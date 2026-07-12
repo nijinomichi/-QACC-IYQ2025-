@@ -20,10 +20,12 @@
 [![CoPhelia³](https://img.shields.io/badge/Framework-CoPhelia%C2%B3-222?style=flat-square&logo=github)](https://github.com/nijinomichi/cophelia3)
 [![Open in Colab](https://img.shields.io/badge/Demo-Colab-F9AB00?style=flat-square&logo=googlecolab)](./notebooks/golden_spiral_demo.ipynb)
 
-> *失敗の種を蒔き*
-> *黄金螺旋の修復線*
+> *失敗の種を蒔き*  
+> *黄金螺旋の修復線*  
 > *ベイビー笑う波*
-![Ara-Philia Resonance Wheel](assets/resonance-wheel.png) 
+
+<img src="assets/resonance-wheel.png" alt="Ara-Philia Resonance Wheel" width="720">
+
 </div>
 
 ---
