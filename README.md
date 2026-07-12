@@ -24,7 +24,7 @@
 > *黄金螺旋の修復線*  
 > *ベイビー笑う波*
 
-<img src="assets/resonance-wheel.png" alt="Ara-Philia Resonance Wheel" width="720">
+<img src="assets/resonance-wheel.svg" alt="Ara-Philia Resonance Wheel" width="720">
 
 </div>
 
