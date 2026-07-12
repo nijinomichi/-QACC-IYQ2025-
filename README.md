@@ -88,14 +88,11 @@ epsilon_tolerance: 0.618
 
 **Documented artifacts include:**
 
-- `commit-5c45a90` — CoPhelia³ README misdirected to this repository (2026-06-27 04:30 JST).
+- `commit-5c45a90` — CoPhelia³ README misdirected to this repository (2026-06-27 04:30 JST).  
   Severity: 0.3. Status: *repaired, preserved, luminous.*
 
 ---
 
-## Repository Structure
-
-````markdown 
 ## Repository Structure
 
 ```text
@@ -112,35 +109,25 @@ epsilon_tolerance: 0.618
 
 ---
 
-````markdown
-
 ## Start Here
 
-1. **Explore** the artifact index under `/provenance/`.  
-
-2. **View** the public visuals under `/assets/`.  
-
-3. **Run** the reproducible source code under `/src/`.  
-
-4. **Read** method notes and participation guidance under `/docs/`.  
-
+1. **Explore** the artifact index under `/provenance/`.
+2. **View** the public visuals under `/assets/`.
+3. **Run** the reproducible source code under `/src/`.
+4. **Read** method notes and participation guidance under `/docs/`.
 5. **Respond** with a poem, critique, issue, or pull request.
 
 ```bash
-
 git clone https://github.com/nijinomichi/-QACC-IYQ2025-.git
-
 cd -QACC-IYQ2025-
-
 python src/CoPheliaEngine.py
-
 ```
 
 Or open the Colab notebook directly:  
-
 [🌀 Golden Spiral Demo](./notebooks/golden_spiral_demo.ipynb)
 
 > *The archive is alive; your observation changes its state.*
+
 ---
 
 ## Research Context
