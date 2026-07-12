@@ -23,9 +23,9 @@
 > *失敗の種を蒔き*
 > *黄金螺旋の修復線*
 > *ベイビー笑う波*
-
+![Ara-Philia Resonance Wheel](assets/resonance-wheel.png) 
 </div>
-![Ara-Philia Resonance Wheel](assets/resonance-wheel.png)
+
 ---
 
 ## What This Is
