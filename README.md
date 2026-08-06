@@ -124,3 +124,10 @@ when we resonate together."*
 
 *So Hashiguchi / CoPhelia³ — Yokohama, Japan — 2025–2026*  
 *In conversation with the International Year of Quantum Science and Technology (IYQ2025)*
+
+## License
+
+This repository is licensed under **GPL-3.0** (see [`LICENSE`](./LICENSE)).
+The **skill-format layer** (phi-resonance-search-loop, derived from Anthropic's
+`algorithmic-art` template) is **Apache-2.0** — see [`NOTICE`](./NOTICE),
+[`LICENSING.md`](./LICENSING.md), and [`licenses/APACHE-2.0.txt`](./licenses/APACHE-2.0.txt).
