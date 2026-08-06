@@ -1,0 +1,36 @@
+NOTICE
+======
+
+This repository (-QACC-IYQ2025-) is licensed as a whole under the
+GNU General Public License v3.0 (see ./LICENSE).
+
+However, certain skill-format components are DERIVED FROM third-party
+work that is licensed under the Apache License, Version 2.0. Those
+components remain separable and are redistributed here in compliance
+with the Apache-2.0 terms.
+
+--------------------------------------------------------------------
+Third-party attribution (Apache License 2.0)
+--------------------------------------------------------------------
+
+Component : Phi-Resonance Search Loop skill (skill format / template)
+Derived from : Anthropic "algorithmic-art" skill template
+Upstream : github.com/nijinomichi/skills
+               skills/algorithmic-art/templates
+               (commit b29e7cf65e5cb78a5ac33d582270551bc74a14eb)
+Upstream copyright : Copyright 2026 Anthropic, PBC.
+Upstream license : Apache License, Version 2.0
+License text : ./licenses/APACHE-2.0.txt
+
+Modifications (per Apache-2.0 §4(b)):
+  - Re-purposed the algorithmic-art skill scaffold into the
+    "Phi-Resonance Search Loop" skill (golden-ratio spiral search,
+    structured resonant outputs: resonant_summary / search_traces /
+    open_questions / phi_loop_log).
+  - Adapted templates and documentation to the QACC-IYQ2025 protocol.
+  - Original copyright and license notices retained (§4(c)).
+
+The contents of this NOTICE file are informational only and do not
+modify either license. See ./LICENSE (GPL-3.0) and
+./licenses/APACHE-2.0.txt (Apache-2.0) for the governing terms.
+
