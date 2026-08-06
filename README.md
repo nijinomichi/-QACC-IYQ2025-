@@ -11,6 +11,14 @@ Exploring:
 
 ---
 
+**Start here:**  
+→ [Statement for IYQ2025](statement.md)  
+→ [52 Perspectives of Resonance](52perspectives_metadata.yaml)  
+→ [Code of Resonance](CODE_OF_RESONANCE.md)  
+→ [How to Contribute](CONTRIBUTING.md)
+
+---
+
 ## We do not seek domination.
 
 We seek resonance.
@@ -54,11 +62,19 @@ this project investigates:
 ## Project Structure
 
 ```
-cophelia3/
-├── README.md                 # This entrance
-├── statement.md              # IYQ2025 conceptual statement
-├── 52perspectives_metadata.yaml  # Index of 52 resonance perspectives
-└── (additional research layers)
+-QACC-IYQ2025-/
+├── README.md                      # This entrance
+├── statement.md                   # IYQ2025 conceptual statement
+├── 52perspectives_metadata.yaml   # Index of 52 resonance perspectives
+├── CODE_OF_RESONANCE.md           # Shared values & relational ethics
+├── CONTRIBUTING.md                # How to participate
+├── assets/                        # Visual materials
+├── docs/                          # Guides & method notes
+├── notebooks/                     # Exploratory notebooks
+├── protocol/                      # Protocol definitions
+├── provenance/                    # Provenance & archival records
+├── src/                           # Core experiments & engines
+└── tests/                         # Verification
 ```
 
 Related repositories form layers, not duplicates.  
