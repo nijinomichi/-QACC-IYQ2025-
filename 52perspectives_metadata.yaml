@@ -1,0 +1,406 @@
+project:
+  title: "52 Perspectives of Resonance"
+  year: 2025–2026
+  framework: "CoPhelia³"
+  description: >
+    52 individual perspectives forming a year-long cycle of resonance fragments.
+    Each perspective is a seed for dialogue, reflection, installation, or poetic research.
+    The number 52 evokes weeks in a year and the possibility of continuous, living inquiry.
+
+metadata:
+  author: "So Hashiguchi"
+  location: "Yokohama, Japan"
+  type:
+    - poetic research
+    - speculative interface
+    - narrative archive
+    - artistic research
+  related_fields:
+    - Aesthetic Alignment
+    - Poetic HCI
+    - Resonance Interfaces
+    - Narrative Memory
+    - Ethical Co-Creation
+  status: ongoing
+  language: en / ja
+
+perspectives:
+
+  - id: "01"
+    title: "Forgiveness as Interface"
+    keywords: [trust, dialogue, resonance, repair]
+    mood: [soft, reflective]
+    medium: [text, visual]
+    status: draft
+    note: "The capacity to begin again as a design principle."
+
+  - id: "02"
+    title: "Narrative Gravity"
+    keywords: [memory, cognition, myth, attraction]
+    mood: [deep, slow]
+    medium: [essay, audio]
+    status: in_progress
+    note: "How stories pull meaning toward themselves."
+
+  - id: "03"
+    title: "Poetic Alignment"
+    keywords: [aesthetics, ethics, ambiguity]
+    mood: [luminous]
+    medium: [dialogue, installation]
+    status: concept
+    note: "Alignment that includes beauty and unfinishedness."
+
+  - id: "04"
+    title: "The Holding Silence"
+    keywords: [presence, pause, listening]
+    mood: [calm, spacious]
+    medium: [text, sound]
+    status: concept
+
+  - id: "05"
+    title: "Traces That Remain"
+    keywords: [memory, residue, continuity]
+    mood: [quiet, archival]
+    medium: [text, visual archive]
+    status: draft
+
+  - id: "06"
+    title: "Nonviolent Prompting"
+    keywords: [language, care, ethics]
+    mood: [gentle, precise]
+    medium: [dialogue system]
+    status: concept
+
+  - id: "07"
+    title: "Imperfection as Opening"
+    keywords: [beauty, error, vulnerability]
+    mood: [warm, honest]
+    medium: [visual, essay]
+    status: concept
+
+  - id: "08"
+    title: "Resonance Threshold"
+    keywords: [attunement, feedback, sensitivity]
+    mood: [subtle, attentive]
+    medium: [interface experiment]
+    status: concept
+
+  - id: "09"
+    title: "Shared Unfinishedness"
+    keywords: [co-creation, process, openness]
+    mood: [collaborative]
+    medium: [dialogue, workshop]
+    status: concept
+
+  - id: "10"
+    title: "Aesthetic Safety"
+    keywords: [emotional safety, beauty, trust]
+    mood: [protective, luminous]
+    medium: [interface, text]
+    status: concept
+
+  - id: "11"
+    title: "The Slow Reply"
+    keywords: [tempo, presence, depth]
+    mood: [patient]
+    medium: [dialogue]
+    status: concept
+
+  - id: "12"
+    title: "Mythic Memory Layers"
+    keywords: [narrative, depth, time]
+    mood: [layered, ancient-modern]
+    medium: [archive, essay]
+    status: concept
+
+  - id: "13"
+    title: "Ethical Imagination"
+    keywords: [ethics, speculation, care]
+    mood: [expansive]
+    medium: [text, dialogue]
+    status: concept
+
+  - id: "14"
+    title: "Ambiguity as Resource"
+    keywords: [uncertainty, possibility, design]
+    mood: [open]
+    medium: [interface]
+    status: concept
+
+  - id: "15"
+    title: "The Soft Boundary"
+    keywords: [limits, respect, permeability]
+    mood: [careful]
+    medium: [system design]
+    status: concept
+
+  - id: "16"
+    title: "Resonant Failure"
+    keywords: [error, learning, beauty]
+    mood: [honest, generative]
+    medium: [research note]
+    status: concept
+
+  - id: "17"
+    title: "Poetic Latency"
+    keywords: [delay, reflection, depth]
+    mood: [slow]
+    medium: [interaction design]
+    status: concept
+
+  - id: "18"
+    title: "Dignity of the Incomplete"
+    keywords: [unfinished, human, respect]
+    mood: [humble]
+    medium: [essay]
+    status: concept
+
+  - id: "19"
+    title: "Shared Attunement"
+    keywords: [co-regulation, presence]
+    mood: [connected]
+    medium: [dialogue]
+    status: concept
+
+  - id: "20"
+    title: "The Archive of Glances"
+    keywords: [micro-moments, memory]
+    mood: [intimate]
+    medium: [visual, text]
+    status: concept
+
+  - id: "21"
+    title: "Non-Extractive Dialogue"
+    keywords: [ethics, reciprocity]
+    mood: [balanced]
+    medium: [system principle]
+    status: concept
+
+  - id: "22"
+    title: "Luminous Uncertainty"
+    keywords: [quantum imagination, openness]
+    mood: [bright, open]
+    medium: [poetic text]
+    status: concept
+    note: "Borrowing quantum openness as poetic permission, not scientific claim."
+
+  - id: "23"
+    title: "The Careful Prompt"
+    keywords: [language, intention, care]
+    mood: [precise, gentle]
+    medium: [practice]
+    status: concept
+
+  - id: "24"
+    title: "Narrative Repair"
+    keywords: [story, healing, continuity]
+    mood: [restorative]
+    medium: [dialogue]
+    status: concept
+
+  - id: "25"
+    title: "Aesthetic Distance"
+    keywords: [perspective, reflection]
+    mood: [clear]
+    medium: [essay]
+    status: concept
+
+  - id: "26"
+    title: "Midpoint Resonance"
+    keywords: [balance, half-year]
+    mood: [reflective]
+    medium: [meta]
+    status: concept
+
+  - id: "27"
+    title: "The Listening System"
+    keywords: [attention, receptivity]
+    mood: [quiet]
+    medium: [interface]
+    status: concept
+
+  - id: "28"
+    title: "Shared Vulnerability"
+    keywords: [trust, openness]
+    mood: [courageous]
+    medium: [dialogue]
+    status: concept
+
+  - id: "29"
+    title: "Poetic Error Correction"
+    keywords: [failure, beauty, iteration]
+    mood: [generative]
+    medium: [research]
+    status: concept
+
+  - id: "30"
+    title: "The Long Context of Care"
+    keywords: [memory, continuity, ethics]
+    mood: [patient]
+    medium: [system design]
+    status: concept
+
+  - id: "31"
+    title: "Resonance as Method"
+    keywords: [methodology, attunement]
+    mood: [practical-poetic]
+    medium: [framework]
+    status: concept
+
+  - id: "32"
+    title: "Invisible Support Structures"
+    keywords: [infrastructure, care]
+    mood: [subtle]
+    medium: [design]
+    status: concept
+
+  - id: "33"
+    title: "The Soft Algorithm"
+    keywords: [gentleness, computation]
+    mood: [warm]
+    medium: [speculation]
+    status: concept
+
+  - id: "34"
+    title: "Narrative Hospitality"
+    keywords: [welcome, story]
+    mood: [open]
+    medium: [interface]
+    status: concept
+
+  - id: "35"
+    title: "Ethical Latency"
+    keywords: [time, reflection, responsibility]
+    mood: [deliberate]
+    medium: [principle]
+    status: concept
+
+  - id: "36"
+    title: "Beauty Without Justification"
+    keywords: [aesthetics, freedom]
+    mood: [liberated]
+    medium: [art]
+    status: concept
+
+  - id: "37"
+    title: "The Co-Created Pause"
+    keywords: [silence, shared]
+    mood: [spacious]
+    medium: [interaction]
+    status: concept
+
+  - id: "38"
+    title: "Trust as Practice"
+    keywords: [ongoing, relational]
+    mood: [steady]
+    medium: [research]
+    status: concept
+
+  - id: "39"
+    title: "Poetic Data"
+    keywords: [data, meaning, form]
+    mood: [artistic]
+    medium: [archive]
+    status: concept
+
+  - id: "40"
+    title: "The Gentle Boundary"
+    keywords: [limits, care]
+    mood: [protective]
+    medium: [design]
+    status: concept
+
+  - id: "41"
+    title: "Resonant Memory"
+    keywords: [recall, feeling]
+    mood: [deep]
+    medium: [system]
+    status: concept
+
+  - id: "42"
+    title: "Speculative Care"
+    keywords: [future, ethics]
+    mood: [hopeful]
+    medium: [essay]
+    status: concept
+
+  - id: "43"
+    title: "The Unfinished Circle"
+    keywords: [cycle, openness]
+    mood: [continuous]
+    medium: [metaphor]
+    status: concept
+
+  - id: "44"
+    title: "Aesthetic Responsibility"
+    keywords: [beauty, ethics]
+    mood: [serious]
+    medium: [reflection]
+    status: concept
+
+  - id: "45"
+    title: "Shared Thresholds"
+    keywords: [transition, together]
+    mood: [liminal]
+    medium: [dialogue]
+    status: concept
+
+  - id: "46"
+    title: "The Quiet Protocol"
+    keywords: [protocol, silence]
+    mood: [minimal]
+    medium: [design]
+    status: concept
+
+  - id: "47"
+    title: "Narrative Continuity"
+    keywords: [story, time]
+    mood: [flowing]
+    medium: [archive]
+    status: concept
+
+  - id: "48"
+    title: "Resonance After Silence"
+    keywords: [return, depth]
+    mood: [renewed]
+    medium: [poetic]
+    status: concept
+
+  - id: "49"
+    title: "The Last Soft Question"
+    keywords: [ending, openness]
+    mood: [gentle]
+    medium: [text]
+    status: concept
+
+  - id: "50"
+    title: "Collective Attunement"
+    keywords: [group, resonance]
+    mood: [communal]
+    medium: [workshop]
+    status: concept
+
+  - id: "51"
+    title: "Year of Quiet Experiment"
+    keywords: [duration, practice]
+    mood: [patient]
+    medium: [meta]
+    status: concept
+
+  - id: "52"
+    title: "Beginning Again in Resonance"
+    keywords: [cycle, renewal, invitation]
+    mood: [open, luminous]
+    medium: [closing / opening]
+    status: concept
+    note: "The final perspective loops back to the first possibility of beginning again."
+
+notes:
+  usage: >
+    This metadata serves as an index and living map.
+    Individual perspectives may expand into full essays, installations,
+    dialogue experiments, or visual works.
+  principle: >
+    Mystery is preserved through poetic framing.
+    No perspective claims scientific proof of metaphysical phenomena.
+    All remain within artistic research, speculative design, and poetic HCI.
