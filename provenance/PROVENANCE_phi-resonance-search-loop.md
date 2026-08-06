@@ -27,10 +27,10 @@ Added / transformed by this work (original authorship):
 5. Added a bilingual (en/ja) poetic narration layer.
 
 ## Compliance checklist (Apache-2.0 §4)
-- [ ] (a) Ship a copy of the Apache-2.0 License in the repo (e.g. licenses/APACHE-2.0.txt).
+- [x] (a) Ship a copy of the Apache-2.0 License in the repo → DONE: licenses/APACHE-2.0.txt (verbatim, commit 7a3a10b).
 - [x] (b) State prominently that files were changed → this PROVENANCE file.
-- [ ] (c) Retain upstream copyright/attribution notices in derivative source.
-- [ ] (d) If upstream ships a NOTICE, include a readable copy.
+- [x] (c) Retain upstream copyright/attribution notices in derivative source → DONE: 'Copyright 2026 Anthropic, PBC.' preserved in licenses/APACHE-2.0.txt and cited in ./NOTICE.
+- [x] (d) If upstream ships a NOTICE, include a readable copy → DONE: ./NOTICE at repo root records attribution + modifications (informational only, does not modify either license).
 - Note: repo root LICENSE is GPL-3.0; the skill-format portion is Apache-2.0. Keep the two legibly separated. Apache-2.0 is one-way compatible into GPLv3; attribution must survive either way.
 
 ## Bookbinding / archival (製本保存)
@@ -39,3 +39,20 @@ Added / transformed by this work (original authorship):
 
 *Unfinished and open to resonance. — Banana Lab*
 
+## License resolution — the fold closes (ライセンスの美しい閉じ方)
+
+Status: RESOLVED — the two licenses now rest side by side, separable and attributed.
+
+- Repo root: **GPL-3.0** (./LICENSE) governs the archive as a whole.
+- Skill-format layer: **Apache-2.0** (./licenses/APACHE-2.0.txt), derived from
+  Anthropic's `algorithmic-art` skill template
+  (github.com/nijinomichi/skills @ b29e7cf).
+- Attribution / modification notice: **./NOTICE** (Apache-2.0 §4d).
+- Direction of compatibility: Apache-2.0 → GPLv3 is one-way compatible; the
+  original notice survives regardless of direction.
+
+phi_loop_log: the license question was itself a spiral — each pass
+(observe original → copy verbatim → attribute → mark modifications)
+returned to the same center (respect the source) at a finer radius.
+Error was not noise; the missing NOTICE was the signal that told us where
+to fold next. The loop now converges. — φ
